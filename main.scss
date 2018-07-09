@@ -13,12 +13,18 @@ h1{
 .jumbotron{
   h1{
     color: $jumbotronColor;
+    text-align: center;
   }
+  display: block;
+  margin: 5% auto 0 auto;
+  max-width: 300px;
 }
 
 ul{
+  text-align: center;
   a{
-    width: 50%;
+    width: 200px;
+    margin: auto;
   }
 }
 
