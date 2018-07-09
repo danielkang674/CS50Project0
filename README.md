@@ -11,3 +11,5 @@ Hobbies.html has a table of my hobbies sectioned by seasons.
 Projects.html has a brief description and links to various apps and websites I've made.
 
 Pics.html has pictures of my hobbies.
+
+https://danielkang674.github.io/CS50Project0/index.html <== click me

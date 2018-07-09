@@ -65,6 +65,10 @@ table, th, td {
   padding: 10px;
 }
 
+.card:hover {
+  background-color: yellow;
+}
+
 #snowboarding {
   background-color: white;
 }

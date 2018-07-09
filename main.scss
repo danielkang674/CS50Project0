@@ -79,6 +79,10 @@ table, th, td{
   @extend %equalSizes;
 }
 
+.card:hover{
+  background-color: yellow;
+}
+
 #snowboarding{
   @extend %borderandspacing;
   background-color: white;
