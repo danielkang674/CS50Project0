@@ -1,0 +1,42 @@
+$bgcolor: black;
+$txtcolor: white;
+$jumbotronColor: red;
+
+body{
+  background-color: $bgcolor;
+}
+
+h1{
+  color: $txtcolor;
+}
+
+.jumbotron{
+  h1{
+    color: $jumbotronColor;
+  }
+}
+
+ul{
+  a{
+    width: 50%;
+  }
+}
+
+.pageHeader{
+  display: flex;
+  flex-direction: row;
+
+  h1{
+    display: flex;
+  }
+
+  a#homebtn{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 10px 30%;
+    justify-content: center;
+    @media screen and (max-width: 900px) {
+      margin: 10px 0 10px 10%;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+.jumbotron h1 {
+  color: red;
+}
+
+ul a {
+  width: 50%;
+}
+
+.pageHeader {
+  display: flex;
+  flex-direction: row;
+}
+.pageHeader h1 {
+  display: flex;
+}
+.pageHeader a#homebtn {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 10px 30%;
+  justify-content: center;
+}
+@media screen and (max-width: 900px) {
+  .pageHeader a#homebtn {
+    margin: 10px 0 10px 10%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
