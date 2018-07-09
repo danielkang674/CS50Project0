@@ -40,3 +40,61 @@ ul{
     }
   }
 }
+
+table, th, td{
+  color: $txtcolor;
+  border: 1px solid green;
+  border-collapse: collapse;
+}
+
+.row.one{
+  margin-bottom: 5px;
+}
+
+%equalSizes{
+  width: 300px;
+  height: 200px;
+  @media screen and (max-width: 330px){
+    width: 250px;
+    height: 150px;
+  }
+}
+
+%flexing{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+%borderandspacing{
+  border: 1px solid yellow;
+  margin: 5px;
+  padding: 10px;
+}
+
+.allPics{
+  @extend %flexing;
+}
+
+.pic{
+  @extend %equalSizes;
+}
+
+#snowboarding{
+  @extend %borderandspacing;
+  background-color: white;
+}
+
+#wakeboarding{
+  @extend %borderandspacing;
+  background-color: skyblue;
+}
+
+#boostedboarding{
+  @extend %borderandspacing;
+  background-color: darkslategray;
+}
+
+#gym{
+  @extend %borderandspacing;
+  background-color: wheat;
+}
